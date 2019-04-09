@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #fff;
+}
+
+
+.banner {
+}
+
+.top {
+    text-align: center;
+    color: #B01116;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Collapsible */
+
+.collapsible {
+    background-color: #fff;
+    color: #B01116;
+    cursor: pointer;
+    padding: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5%;
+    width: 90%;
+    border: solid 2px #B01116;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #B01116;
+    color: white;
+}
+
+.collapsible:after {
+    content: "\f063";
+    font-family: "Font Awesome 5 Free";
+    color: #B01116;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\f062";
+    font-family: "Font Awesome 5 Free";
+    color: white;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #B01116;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+
+.content a {
+    border-bottom: solid 1.9px #f7ed00;
+    color: #B01116;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.content i {
+    font-size: 30px;
+}
+
+/* billede */
+
+.start_billede {
+    width: 100%;
+}
+
+/* Footer*/
+
+.gt {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bue {
+
+    background-color: #b01116;
+    height: 100px;
+    border-top-left-radius: 40% 60%;
+    border-top-right-radius: 40% 60%;
+    border-top-width: 9px;
+    border-style: solid;
+    border-top-color: #f7a70e;
+    border-bottom: none;
+    margin-left: -10%;
+    width: 120%;
+    text-align: center;
+}
+
+
+.icons {
+
+    color: white;
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+.fa-facebook-square {
+
+    margin-right: 30px;
+}
+
+.fa-instagram {
+
+    margin-left: 30px;
+}
+
+.hej:link {
+    color: white;
+}
+
+.hej:visited {
+    color: white;
+
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 768px;
+      max-width: 768px;
+      margin: auto;
+  }
+}
